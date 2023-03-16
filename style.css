@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: black;
+  }
+  
+  .heading {
+    position: relative;
+    top: -70px;
+    left: -35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  h1 {
+    color: rgb(255, 106, 0);
+    font-size: 3rem;
+    margin-left: 30px;
+  }
+  .container {
+    width: 50%;
+    margin: 200px auto;
+    border: 3px solid #ff6800;
+    background-color: #ffca6c;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-item {
+    display: flex;
+  }
+  #input,
+  .item {
+    width: 500px;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    outline: none;
+    border: 3px solid rgb(255, 106, 0);
+    border-radius: 10px;
+  }
+  .item {
+    background-color: #402c0a;
+    color: white;
+  }
+  #addBtn,
+  .del-item,
+  #hBtn {
+    color: rgb(255, 106, 0);
+    font-size: 3rem;
+    cursor: pointer;
+  }
+  
+  .del-item {
+    font-size: 2rem;
+  }
+  .del-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 9px;
+  }
+  
+  #addBtn:hover,
+  .del-item:hover {
+    color: rgb(171, 89, 30);
+  }
+  #removeBtn {
+    width: 20%;
+    margin-top: 100px;
+    font-size: 1.2rem;
+    background-color: rgb(255, 106, 0);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #removeBtn:hover {
+    background-color: rgb(210, 108, 35);
+  }
+  
+  .item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .add-task {
+    display: flex;
+    margin-top: 1rem;
+  }
+  
